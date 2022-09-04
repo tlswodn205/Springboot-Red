@@ -4,7 +4,7 @@
 <%@ include file="../layout/header.jsp"%>
 
 <div class="container">
-	<form>
+	<form action="/login" method="post">
 		<div class="mb-3 mt-3">
 			<input
 				type="text" class="form-control"

@@ -15,13 +15,5 @@
 	<select id="findAll" resultType="site.metacoding.red.domain.boards.Boards">
 		
 	</select>
-	
-	<update id="update">
-	
-	</update>
-	
-	<delete id="delete">
-	
-	</delete>
 
 </mapper>
