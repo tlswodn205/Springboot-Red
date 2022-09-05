@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import lombok.RequiredArgsConstructor;
 import site.metacoding.red.domain.users.Users;
 import site.metacoding.red.domain.users.UsersDao;
-import site.metacoding.red.web.dto.boards.LoginDto;
-import site.metacoding.red.web.dto.users.JoinDto;
+import site.metacoding.red.web.dto.request.boards.LoginDto;
+import site.metacoding.red.web.dto.request.users.JoinDto;
 
 @RequiredArgsConstructor
 @Controller
