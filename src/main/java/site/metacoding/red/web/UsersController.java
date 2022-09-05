@@ -34,6 +34,7 @@ public class UsersController {
 		   session.setAttribute("principal", userPS);
 		   return "redirect:/";
 	   }else { // 인증 안됨.
+		   System.out.println(userPS.getUsername()); 
 		   return "redirect:/loginForm";
 	   }
 
